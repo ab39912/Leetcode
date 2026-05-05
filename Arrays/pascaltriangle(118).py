@@ -17,3 +17,8 @@ class Solution:
             triangle.append(row)
 
         return triangle
+
+
+# Complexity Analysis
+#Time Complexity: O(N^2), we generate all the elements in first N rows sequentially one by one.
+# Space Complexity: O(N^2), additional space used for storing the entire pascal triangle.
